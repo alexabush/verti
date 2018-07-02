@@ -4,15 +4,15 @@ class Copy extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <div>
+      <div className="copy__div">
+        <div className="copy-images__div">
           <h3>Interesting stuff</h3>
           <div>
             <p>photos</p>
           </div>
           <button>More</button>
         </div>
-        <div>
+        <div className="copy-text__div">
           <h2>So what's this all about?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
@@ -20,7 +20,7 @@ class Copy extends Component {
             Reprehenderit cumque minus provident asperiores amet nemo natus,
             perspiciatis sit impedit iure.
           </p>
-          <button>Continue Reading</button>
+          <button className="copy-text__button">Continue Reading</button>
         </div>
       </div>
     );

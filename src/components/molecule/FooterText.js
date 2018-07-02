@@ -5,13 +5,15 @@ class FooterText extends Component {
   render() {
     const linkLis = this.props.links.map(text => {
       return (
-        <li>
-           <a href="#">{text}</a>;
+        <li className="footer__FooterText--li">
+          <a className="footer__FooterText--a" href="#">
+            {text}
+          </a>;
         </li>
       );
     });
     return (
-      <div>
+      <div className="footer__FooterText--div">
         <p>{this.props.title}</p>
         <ul>{linkLis}</ul>
       </div>

@@ -18,8 +18,8 @@ class Stories extends Component {
       return <Story title={title} subtitle={subtitle} text={text} />;
     });
     return (
-      <div>
-        <ul>{storyLis}</ul>
+      <div className="stories__div">
+        <ul className="stories__ul">{storyLis}</ul>
       </div>
     );
   }

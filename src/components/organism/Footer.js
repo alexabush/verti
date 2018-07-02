@@ -36,8 +36,8 @@ class Footers extends Component {
       return <FooterText title={title} links={links} />;
     });
     return (
-      <div>
-        <ul>{footerTextLis}</ul>
+      <div className="footer__div">
+        <ul className="footer__ul">{footerTextLis}</ul>
       </div>
     );
   }
