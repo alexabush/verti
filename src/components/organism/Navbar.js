@@ -4,16 +4,16 @@ class NavBar extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <div>
+      <div className="nav-bar">
+        <div className="nav-bar-logo__div">
           <p>by HTML5 UP</p>
         </div>
-        <ul>
-          <li>Welcome</li>
-          <li>Dropdown</li>
-          <li>Left Sidebar</li>
-          <li>Right Sidebar</li>
-          <li>No Sidebar</li>
+        <ul className="nav-bar-links__ul">
+          <li className="nav-bar-link__li">Welcome</li>
+          <li className="nav-bar-link__li">Dropdown</li>
+          <li className="nav-bar-link__li">Left Sidebar</li>
+          <li className="nav-bar-link__li">Right Sidebar</li>
+          <li className="nav-bar-link__li">No Sidebar</li>
         </ul>
       </div>
     );
