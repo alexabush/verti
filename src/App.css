@@ -117,3 +117,14 @@
 .footer__ul {
   border: 1px solid lightsalmon;
 }
+
+.footer__FooterText--div {
+  border: 1px solid lightsalmon;
+  /* width: 100px; */
+}
+.footer__FooterText--li {
+  border: 1px solid lightsalmon;
+}
+.footer__FooterText--a {
+  border: 1px solid lightsalmon;
+}
