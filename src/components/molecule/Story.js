@@ -4,10 +4,10 @@ class Story extends Component {
   state = {};
   render() {
     return (
-      <div className="stories__story">
+      <div className="div--story">
         <img src="" alt="" />
         <p>image</p>
-        <div className="stories__story--text">
+        <div className="div__text--story">
           <p>{this.props.title}</p>
           <p>{this.props.subtitle}</p>
           <p>{this.props.text}</p>
