@@ -12,9 +12,7 @@ class Header extends Component {
           </h2>
         </div>
         <div className="div__buttons--header">
-          <button className="header__button header__button--1">
-            Ok let's go
-          </button>
+          <button className="header__button button--blue">Ok let's go</button>
           <button className="header__button header__button--2">
             More info
           </button>

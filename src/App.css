@@ -1,9 +1,14 @@
 .App {
-  padding: 50px 30px;
+  padding: 50px 0px;
   background-color: rgb(237, 237, 237);
 }
 
+.button {
+  border-radius: 10px;
+}
+
 .navbar {
+  margin: 0px 30px;
   display: flex;
   flex-direction: column;
   border: 1px solid brown;
@@ -52,6 +57,7 @@
   background-color: white;
   align-items: center;
   padding: 30px;
+  margin: 0px 30px;
 }
 
 .div__text--header {
@@ -85,7 +91,7 @@
   border-radius: 10px;
 }
 
-.header__button--1 {
+.button--blue {
   color: white;
   background-color: rgb(0, 144, 200);
 }
@@ -95,6 +101,8 @@
 }
 
 .div--stories {
+  margin: 0px 30px;
+
   /* display: flex; */
   /* flex-direction: column; */
   border: 1px solid forestgreen;
@@ -105,10 +113,20 @@
   display: flex;
   flex-direction: column;
   padding: 0;
+  margin-bottom: 40px;
 }
 
-.div--story {
+.story__container {
+  margin-top: 40px;
   border: 1px solid maroon;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 .div__text--story {
@@ -116,26 +134,64 @@
   font-size: 24px;
 }
 
-.copy__div {
+.story__h2 {
+  font-size: 32px;
+  color: rgb(68, 68, 68);
+}
+
+.story__text {
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(105, 105, 105);
+  line-height: 2;
+}
+
+.copy__container {
   display: flex;
+  flex-direction: column-reverse;
   padding: 30px 10px;
   justify-content: space-between;
   border: 1px solid darkgreen;
+  background-color: white;
 }
 
-.copy-images__div {
-  margin: 10px;
-  border: 1px solid darkblue;
-}
-
-.copy-text__div {
+.copy__images-container {
   margin: 10px;
   border: 1px solid darkred;
+  display: flex;
+  flex-direction: column;
 }
 
-.copy-text__button {
+.images__container {
+  /* margin: 10px; */
+  border: 1px solid darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img__container {
+  width: 45%;
+  padding: 5px;
+}
+
+.copy__text-container {
+  margin: 10px;
+  border: 1px solid darkred;
+  display: flex;
+  flex-direction: column;
+}
+
+.copy__text {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.copy__button {
   padding: 20px 30px;
   font-size: 24px;
+  align-self: center;
 }
 
 .footer__div {
